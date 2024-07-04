@@ -1,7 +1,6 @@
 <script lang="ts">
-	import Menu from "./_layout.svelte";
+	import Menu from './_layout.svelte';
 </script>
-
 
 <body>
 	<div class="header">
@@ -9,33 +8,32 @@
 		<p class="header-subtitle">frontend developer</p>
 	</div>
 </body>
-<Menu/>
-
+<Menu />
 
 <style>
-	body{
+	body {
 		position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-size: cover;
-        background-position: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-size: cover;
+		background-position: center;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	}
 	.header {
-    width: 100%;
-    height: 100vh;
-    background-color: #7ac6c2;
-	background-image: url(../img/fon.jfif);
-    background-size: cover;
-    background-position: center;
+		width: 100%;
+		height: 100vh;
+		background-color: #7ac6c2;
+		background-image: url(../img/fon.jfif);
+		background-size: cover;
+		background-position: center;
 
-    /* выравнивание */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+		/* выравнивание */
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 	.header-title {
 		margin: 0;
@@ -60,6 +58,5 @@
 		text-transform: uppercase;
 
 		color: #ffffff;
-
 	}
 </style>
