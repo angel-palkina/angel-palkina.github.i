@@ -64,11 +64,11 @@ body {
     margin-top: 3%;
 }
 .bio {
-        list-style-type: none; /* Убираем стандартные маркеры */
+        list-style-type: none; 
     }
     .bio li::before {
-        content: url(./../../img/about/cloud-sketched-shape_59576.png); /* Замените 'путь_к_вашему_изображению' на URL или путь к файлу изображения */
-        margin-right: 10px; /* Добавляем небольшой отступ справа от изображения */
+        content: url(./../../img/about/cloud-sketched-shape_59576.png); 
+        margin-right: 10px; 
     }
 .text-about-me{
     font-size: 30px;

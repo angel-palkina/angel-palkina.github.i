@@ -1,3 +1,7 @@
+<script>
+    import cloud from "./../img/about/clouds_146589.png";
+</script>
+
 <body>
  
 <header id="header" class="header">
@@ -22,9 +26,7 @@
 </header>
 <div class="footer">
     <div class="container header__container">
-        <nav class="menu">
-            <div class="menu__item">AAAAAAAAAS</div>
-        </nav>
+        <div class="footer-coporate-name">© Palkina Sofia </div>
     </div>
 </div>
    
@@ -86,5 +88,11 @@ a {
     font-weight: 600;
     color: #fff;
     text-decoration: none;
+}
+.footer-coporate-name{
+    position: fixed;
+    right: 0;
+    margin-right: 30px;
+    color: #fff;
 }
 </style>

@@ -49,7 +49,7 @@
     background-image: url(./../../img/fon.jfif);
     background-size: cover;
     background-position: center;
-    padding-top: 80px;
+    padding-top: 40px;
     padding-bottom: 115px;
 }
 
