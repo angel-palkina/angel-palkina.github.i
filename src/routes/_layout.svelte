@@ -1,7 +1,3 @@
-<script lang="ts">
-	
-    
-</script>
 <body>
  
 <header id="header" class="header">
@@ -9,21 +5,28 @@
             <nav class="menu">
                 <ul class="menu__list">
                     <li class="menu__item">
-                        <a href="/Home">Home</a>
+                        <a href="/" >Home</a>
                     </li>
                     <li class="menu__item">
-                        <a href="/About">About me</a>
+                        <a href="/about" >About me</a>
                     </li>
                     <li class="menu__item">
-                        <a href="/Projects">Projects</a>
+                        <a href="/projects" >Projects</a>
                     </li>
                     <li class="menu__item">
-                        <a href="/Comic">Comic</a>
+                        <a href="/comic" >Comic</a>
                     </li>
                 </ul>
             </nav>
         </div>
-    </header>
+</header>
+<div class="footer">
+    <div class="container header__container">
+        <nav class="menu">
+            <div class="menu__item">AAAAAAAAAS</div>
+        </nav>
+    </div>
+</div>
    
 </body>
 
@@ -45,6 +48,14 @@ body {
     left: 0;
     width: 100%;
     background-color: rgba(179, 177, 177, 0.089);
+    backdrop-filter: blur(8px);
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(179, 177, 177, 0);
     backdrop-filter: blur(8px);
 }
 

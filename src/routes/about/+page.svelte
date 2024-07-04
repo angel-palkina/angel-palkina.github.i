@@ -1,11 +1,11 @@
 <script lang="ts">
-	import Menu from './__layout.svelte';
+	import Menu from '../_layout.svelte';
 
-    import vk from "./img/footer/vk.png";
-    import tg from "./img/footer/tg.png";
-    import git from "./img/footer/git.png";
-    import mail from "./img/footer/mail.png";
-    import me from "./img/about/photo.jpg";
+    import vk from "./../../img/footer/vk.png";
+    import tg from "./../../img/footer/tg.png";
+    import git from "./../../img/footer/git.png";
+    import mail from "./../../img/footer/mail.png";
+    import me from "./../../img/about/photo.jpg";
     
 
 </script>
@@ -49,7 +49,7 @@ body {
         left: 0;
         width: 100%;
         height: 100%;
-        background-image: url(./img/fon.jfif);
+        background-image: url(./../../img/fon.jfif);
         background-size: cover;
         background-position: center;
 }
@@ -67,7 +67,7 @@ body {
         list-style-type: none; /* Убираем стандартные маркеры */
     }
     .bio li::before {
-        content: url(./img/about/cloud-sketched-shape_59576.png); /* Замените 'путь_к_вашему_изображению' на URL или путь к файлу изображения */
+        content: url(./../../img/about/cloud-sketched-shape_59576.png); /* Замените 'путь_к_вашему_изображению' на URL или путь к файлу изображения */
         margin-right: 10px; /* Добавляем небольшой отступ справа от изображения */
     }
 .text-about-me{

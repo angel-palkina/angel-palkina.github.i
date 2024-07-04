@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Menu from "./__layout.svelte";
+	import Menu from "../_layout.svelte";
     import { formatDistanceToNow } from "date-fns";
 
 interface ComicResponse {
@@ -41,7 +41,7 @@ main();
 	<div class="comic-picture">
         {#if info} <!-- Check if info is available -->
             <img src={info.img} alt={info.alt}>
-            <h2>{info.safe_title}</h2>
+            <h1>{info.safe_title}</h1>
             <time>{`Uploaded ${formatDistanceToNow(new Date(Date.UTC(Number.parseInt(info.year), Number.parseInt(info.month) - 1)))} ago`}</time>
         {/if}
     </div>
@@ -57,7 +57,7 @@ main();
         left: 0;
         width: 100%;
         height: 100%;
-        background-image: url(./img/fon.jfif);
+        background-image: url(./../../img/fon.jfif);
         background-size: cover;
         background-position: center;
     }

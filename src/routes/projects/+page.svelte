@@ -1,13 +1,13 @@
 <script lang="ts">
-  import Menu from "./__layout.svelte";
-  import proj1 from "./img/portfolio/project1.jpg";
-  import proj2 from "./img/portfolio/project2.jpg";
+  import Menu from "../_layout.svelte";
+  import proj1 from "./../../img/portfolio/project1.jpg";
+  import proj2 from "./../../img/portfolio/project2.jpg";
 </script>
 
 <body>
     <div class="portfolio">
         <div class="container">
-            <h2 class="portfolio-header">Projects</h2>
+            <h1 class="portfolio-header">Projects</h1>
             <div class="portfolio-cards">
                 <div class="card">
                     <a href="https://github.com/angel-palkina/Schoole_Syte">
@@ -35,7 +35,6 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-image: url(./img/fon.jfif);
         background-size: cover;
         background-position: center;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -47,7 +46,7 @@
     margin-right: auto;
     }
     .portfolio {
-    background-image: url(./img/fon.jfif);
+    background-image: url(./../../img/fon.jfif);
     background-size: cover;
     background-position: center;
     padding-top: 80px;
