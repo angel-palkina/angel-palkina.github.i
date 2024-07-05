@@ -68,7 +68,7 @@ jobs:
 
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url } + /angel-palkina.github.io/src/app.html }
+      url: https://angel-palkina.github.io/src/app.html
 
     runs-on: ubuntu-latest
     steps:
