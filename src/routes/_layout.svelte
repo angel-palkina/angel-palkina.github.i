@@ -1,5 +1,5 @@
 <body>
-	<header id="header" class="header">
+	<div id="header" class="header">
 		<div class="container header__container">
 			<nav class="menu">
 				<ul class="menu__list">
@@ -18,7 +18,7 @@
 				</ul>
 			</nav>
 		</div>
-	</header>
+	</div>
 	<div class="footer">
 		<div class="container header__container">
 			<div class="footer-coporate-name">© Palkina Sofia</div>

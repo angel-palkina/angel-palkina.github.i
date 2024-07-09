@@ -2,6 +2,14 @@
 	import Menu from './_layout.svelte';
 </script>
 
+<head>
+	<meta
+		name="description"
+		content="Main page of the site with portfolio. Frontend developer: Palkina Sofia Sergeevna"
+	/>
+	<title>Palkina Sofia</title>
+</head>
+
 <body>
 	<div class="header">
 		<h1 class="header-title">Palkina Sofia</h1>

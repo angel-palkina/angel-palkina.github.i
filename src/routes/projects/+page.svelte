@@ -4,6 +4,14 @@
 	import proj2 from './../../img/portfolio/project2.jpg';
 </script>
 
+<head>
+	<title>Projects</title>
+	<meta
+		name="description"
+		content="The page with the main projects of the frontend developer (Palkina Sofia Sergeevna)"
+	/>
+</head>
+
 <body>
 	<div class="portfolio">
 		<div class="container">

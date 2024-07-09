@@ -8,6 +8,14 @@
 	import me from './../../img/about/photo.jpg';
 </script>
 
+<head>
+	<title>Bio</title>
+	<meta
+		name="description"
+		content="The page short bio about the frontend developer (Palkina Sofia Sergeevna)"
+	/>
+</head>
+
 <body>
 	<div class="cont">
 		<!-- svelte-ignore a11y-img-redundant-alt -->
